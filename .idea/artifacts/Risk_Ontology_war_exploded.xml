@@ -1,0 +1,61 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Risk_Ontology:war exploded">
+    <output-path>$PROJECT_DIR$/target/Risk_Ontology-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Risk_Ontology</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Risk_Ontology" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-shacl:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-arq:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-core:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-base:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-shaded-guava:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-csv:1.9.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.21" />
+          <element id="library" level="project" name="Maven: com.github.andrewoma.dexx:collection:0.7" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-iri:4.4.0" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.5.0" />
+          <element id="library" level="project" name="Maven: com.github.jsonld-java:jsonld-java:0.13.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient-cache:4.5.13" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.35" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.35" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.1" />
+          <element id="library" level="project" name="Maven: com.apicatalog:titanium-json-ld:1.2.0" />
+          <element id="library" level="project" name="Maven: org.glassfish:jakarta.json:2.0.1" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.3" />
+          <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:0.15.0" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.12.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-shex:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-tdb:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-tdb2:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-dboe-storage:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-dboe-trans-data:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-dboe-transaction:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-dboe-base:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-dboe-index:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.jena:jena-rdfconnection:4.4.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Risk_Ontology-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Risk_Ontology/web/Web" />
+    </root>
+  </artifact>
+</component>
