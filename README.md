@@ -20,4 +20,4 @@ Now you can enjoy the project!
 
 ## Import ontology in Protégé
 
-Download the file Risk.owl (not .ttl!) from ontology folder, open Protégé > File > Open... and import the owl file.
+Download the file RiskOntology.owl (not .ttl!) from ontology folder, open Protégé > File > Open... and import the owl file.
