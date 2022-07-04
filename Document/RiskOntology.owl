@@ -1,0 +1,1413 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/giusya/ontologies/2022/6/untitled-ontology-42#"
+     xml:base="http://www.semanticweb.org/giusya/ontologies/2022/6/untitled-ontology-42"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Category="https://dbpedia.org/page/Category:"
+     xmlns:ontology="https://dbpedia.org/ontology/"
+     xmlns:property="https://dbpedia.org/property/"
+     xmlns:resource="http://dbpedia.org/resource/"
+     xmlns:ontology1="https://live.dbpedia.org/ontology/"
+     xmlns:untitled-ontology-17="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/6/untitled-ontology-42"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Risk_management -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/resource/Risk_management">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_documentation"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdfs:label>Risk_management</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Risk_management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/resource/Software_development -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/resource/Software_development">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Software"/>
+        <rdfs:label>Software_development</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/resource/Software_project_management -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/resource/Software_project_management">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdfs:label>Project_management</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://dbpedia.org/resource/Stakeholder_management -->
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/resource/Stakeholder_management">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdfs:label>Stakeholder_management</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Mitigazione -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Mitigazione">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <rdfs:label>mitigazione</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Plan_Containers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Plan_Containers">
+        <rdfs:subPropertyOf rdf:resource="https://dbpedia.org/page/Category:Containers"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Risk_management_plan"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Plan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Realize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Realize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Risk_Container -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Risk_Container">
+        <rdfs:subPropertyOf rdf:resource="https://dbpedia.org/page/Category:Containers"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Risk_register"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdfs:label>Risk_Container</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Use -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Use">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Use</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#produce_documentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#produce_documentation">
+        <rdfs:subPropertyOf rdf:resource="https://dbpedia.org/property/produce"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:label>produce_documentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#produce_software -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#produce_software">
+        <rdfs:subPropertyOf rdf:resource="https://dbpedia.org/property/produce"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:label>produce_software</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_Artifact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_Artifact">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Realize"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_documentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_documentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Realize"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://dbpedia.org/resource/Risk_management"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_plan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_plan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Realize"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#realize_documentation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Plan_Containers"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#use_to_be_deployed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#use_to_be_deployed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Use"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Software_development_process"/>
+        <rdfs:label>use_to_be_development</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#use_to_project_management -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#use_to_project_management">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Use"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Software_development_process"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://dbpedia.org/ontology/Work -->
+
+    <owl:ObjectProperty rdf:about="https://dbpedia.org/ontology/Work">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdfs:label>Work</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://dbpedia.org/page/Category:Containers -->
+
+    <owl:ObjectProperty rdf:about="https://dbpedia.org/page/Category:Containers"/>
+    
+
+
+    <!-- https://dbpedia.org/property/cause -->
+
+    <owl:ObjectProperty rdf:about="https://dbpedia.org/property/cause">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:label>cause</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://dbpedia.org/property/discovered -->
+
+    <owl:ObjectProperty rdf:about="https://dbpedia.org/property/discovered">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:label>discovered</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://dbpedia.org/property/prevention -->
+
+    <owl:ObjectProperty rdf:about="https://dbpedia.org/property/prevention">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <rdfs:label>prevention</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://dbpedia.org/property/produce -->
+
+    <owl:ObjectProperty rdf:about="https://dbpedia.org/property/produce">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:label>produce</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://live.dbpedia.org/ontology/playerInTeam -->
+
+    <owl:ObjectProperty rdf:about="https://live.dbpedia.org/ontology/playerInTeam">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdfs:label>PlayerInTeam</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Document -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Document">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:label>Document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/TeamMember -->
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/TeamMember">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdfs:comment>With the term team member we intend the member of a team or group. An individual who collaborates with other people thus forming a &quot;team&quot;, whose members share the same goal</rdfs:comment>
+        <rdfs:label>TeamMember</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Plan -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Plan">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:label>Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Project -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Project">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:label>Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Project_manager -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Project_manager">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdfs:label>Project_manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Project_team -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Project_team">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdfs:label>Project_team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Risk -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Risk">
+        <rdfs:label>Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Risk_management_plan -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Risk_management_plan">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdfs:label>Risk_management_plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Risk_register -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Risk_register">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdfs:label>Risk_register</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Root_cause -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Root_cause">
+        <rdfs:label>Root_cause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Software -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Software">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:label>Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Software_development_process -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Software_development_process">
+        <rdfs:label>Software_development_process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Software_documentation -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Software_documentation">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:label>Software_documentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Stakeholder -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Stakeholder">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdfs:label>Stakeholder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Artifact_(software_development) -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Artifact_(software_development)">
+        <rdfs:label>Artifact_(software_development)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <dc:description>The Contingenaza Plans, are the plans that are implemented by the Project Managers when a certain risk occurs. These plans have the objective of mitigating the effects of the risk, trying to limit the damage and eliminate the risk.</dc:description>
+        <rdfs:label>Contingency_Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <dc:description>The Prevention plans are created by the Project Managers with the aim of preventing the occurrence of risks. Once the Project Manager realizes that a certain risk is about to occur, he implements the related prevention plan, with the aim of avoiding the impending risk.</dc:description>
+        <rdfs:label>Prevention_Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/10/swap/pim/contact#Person -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Project -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/domain -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/ontology/domain">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:comment>Mastery and knowledge of the environment connected to the project.</rdfs:comment>
+        <rdfs:label>Domain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Agile_Unified_Process -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Agile_Unified_Process">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_development_process"/>
+        <rdfs:label>Agile</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Agile_Unified_Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Communication -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Communication">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Mitigazione rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <property:cause rdf:resource="http://dbpedia.org/resource/Social_skills"/>
+        <property:discovered rdf:resource="http://dbpedia.org/resource/Personality"/>
+        <property:prevention rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <rdfs:label>Communication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Personality -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Personality">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:label>Personality</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Personality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Quality_management -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Quality_management">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Mitigazione rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <property:cause rdf:resource="http://dbpedia.org/resource/Soft_skills"/>
+        <property:discovered rdf:resource="http://dbpedia.org/resource/Soft_skills"/>
+        <property:prevention rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <rdfs:label>Quality_management</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Requirement -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Requirement">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Mitigazione rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <property:cause rdf:resource="http://dbpedia.org/ontology/domain"/>
+        <property:discovered rdf:resource="http://dbpedia.org/ontology/domain"/>
+        <property:prevention rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <rdfs:label>Requirement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Retardation -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Retardation">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Mitigazione rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation"/>
+        <property:cause rdf:resource="http://dbpedia.org/resource/Soft_skills"/>
+        <property:discovered rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <property:prevention rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Retardation"/>
+        <rdfs:comment>Conclusion after the fixed term of an action that is less prompt than expected. Delivery of artifacts that do not respect the deadline set, can cause serious damage to the costs of the project.</rdfs:comment>
+        <rdfs:label>Retardation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Social_skills -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Social_skills">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:label>Social_skills</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Soft_skills -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Soft_skills">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:label>Soft_skills</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Verification_and_validation -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Verification_and_validation">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_development_process"/>
+        <rdfs:label>Verification_and_validation</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Verification_and_validation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Waterfall_model -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Waterfall_model">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_development_process"/>
+        <rdfs:comment>Waterfall_model</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Waterfall_model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Estimation_(project_management) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Estimation_(project_management)">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Mitigazione rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation"/>
+        <property:cause rdf:resource="https://dbpedia.org/page/Experience"/>
+        <property:discovered rdf:resource="http://dbpedia.org/resource/Retardation"/>
+        <property:prevention rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation"/>
+        <rdfs:label>Estimation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Scrum_(software_development) -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Scrum_(software_development)">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_development_process"/>
+        <rdfs:label>Scrum</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Scrum_(software_development)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C02-FitDiary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C02-FitDiary">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <untitled-ontology-17:Use rdf:resource="http://dbpedia.org/resource/Waterfall_model"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_FitDiary"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_FitDiary"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_FitDiary"/>
+        <untitled-ontology-17:produce_software rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#FitDiary"/>
+        <untitled-ontology-17:use_to_be_deployed rdf:resource="http://dbpedia.org/resource/Waterfall_model"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_FitDiary"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#FitDiary"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_FitDiary"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_FitDiary"/>
+        <dc:title>FitDiary</dc:title>
+        <rdfs:label>C02-FitDiary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C03-UniFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C03-UniFit">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <untitled-ontology-17:Use rdf:resource="http://dbpedia.org/resource/Agile_Unified_Process"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_UniFit"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_UniFit"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_UniFit"/>
+        <untitled-ontology-17:produce_software rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#UniFit"/>
+        <untitled-ontology-17:use_to_be_deployed rdf:resource="http://dbpedia.org/resource/Agile_Unified_Process"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_UniFit"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_UniFit"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_UniFit"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#UniFit"/>
+        <dc:title>UniFit</dc:title>
+        <rdfs:label>C03-UniFit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C04-EasyAid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C04-EasyAid">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <untitled-ontology-17:Use rdf:resource="http://dbpedia.org/resource/Verification_and_validation"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_EasyAid"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_EasyAid"/>
+        <untitled-ontology-17:produce_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_EasyAid"/>
+        <untitled-ontology-17:produce_software rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#EasyAid"/>
+        <untitled-ontology-17:use_to_be_deployed rdf:resource="http://dbpedia.org/resource/Verification_and_validation"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_EasyAid"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#EasyAid"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_EasyAid"/>
+        <property:produce rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_EasyAid"/>
+        <dc:title>EasyAid</dc:title>
+        <rdfs:label>C04-EasyAid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <dc:description>- Speak individually with the TMs involved to understand the specific cause of the problem and resolve it
+- Organize a meeting to discuss the problem and identify a shared solution</dc:description>
+        <dc:title>Piano di Contingenza per il rischio relativo alla Comunicazione</dc:title>
+        <rdfs:label>CP_Comunicazione</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <dc:description>- Carry out a peremptory reorganization and reassignment of tasks, possibly making an effort to further parallelize the work if possible
+- Identify faster solutions for the completion of delayed tasks, without drastically compromising the quality of the product</dc:description>
+        <dc:title>Piano di Contingenza per il rischio relativo agli errori di Sitima del progetto</dc:title>
+        <rdfs:label>CP_Estimation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <dc:description>- Evaluate the reasons behind the risk and decide, accordingly, whether to reassign the task to the same people or to others, or whether not to improve the work produced
+- Carry out a different subdivision of sub-teams or people assigned to tasks so that everyone has the appropriate skills for solving the tasks</dc:description>
+        <dc:title>Piano di Contingnenza per il rischio relativo alla qualità degli artefatti</dc:title>
+        <rdfs:label>CP_Quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <dc:description>- Clarify doubts about the scope, re-explaining things even differently from how it was done previously
+- Identify new sources from which to draw information
+- Identify new stakeholders involved from which to receive explanations</dc:description>
+        <dc:title>Piano di Contingenza per il rischio relativo ai Requisiti del Software</dc:title>
+        <rdfs:label>CP_Requisiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <dc:description>- Re-carry out the estimates and scheduling of activities
+- Negotiate with top management the reduction of the scope of the project and / or the final delivery</dc:description>
+        <dc:title>Piano di Contingenza per il rischio relativo ai Ritardi di consegna degli Artefatti</dc:title>
+        <rdfs:label>CP_Retardation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Contingency_Plan"/>
+        <dc:description>- Talking privately with the TM understanding the cause of his lack of interest and adopting an adequate solution strategy, for example motivating him with incentives or giving him greater security
+- Highlight how important their contribution is and enhance their talents and abilities. Make them feel appreciated and reward them in their good deeds.</dc:description>
+        <dc:title>Piano di Contingenza per il rischio relativo alla scarsa partecipazione di uno Stakeholder</dc:title>
+        <rdfs:label>CP_Scarsa_Comunicazione</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Davide_Bottiglieri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Davide_Bottiglieri">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Retardation"/>
+        <resource:Software_project_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C03-UniFit"/>
+        <resource:Stakeholder_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_03"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Retardation"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_UniFit"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_UniFit"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Retardation"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_UniFit"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_UniFit"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <rdfs:label>Davide_Bottiglieri</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_EasyAid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_EasyAid">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dc:title>Documentazione EasyAid</dc:title>
+        <rdfs:label>Doc_EasyAid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_FitDiary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_FitDiary">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dc:title>Documentazione FitDiary</dc:title>
+        <rdfs:label>Doc_FitDiary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_UniFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_UniFit">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <dc:title>Documentazione UniFit</dc:title>
+        <rdfs:label>Doc_UniFit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#EasyAid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#EasyAid">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:comment>EasyAid was created with the aim of facilitating the provision of services relating to tutoring and support for exams, to students with disabilities and SLD, provided by the right to study office of the University of Salerno.</rdfs:comment>
+        <rdfs:label>EasyAid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#FitDiary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#FitDiary">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:comment>FitDiary is a platform to support all those who are willing to improve their physique through sports. The app builds a personalized card and also supports the person thanks to a personalized power supply.</rdfs:comment>
+        <rdfs:label>FitDiary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Giovanni_Toriello -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Giovanni_Toriello">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_03"/>
+        <rdfs:label>Giovanni_Toriello</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Giusy_Annunziata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Giusy_Annunziata">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Estimation_(project_management)"/>
+        <resource:Software_project_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C04-EasyAid"/>
+        <resource:Stakeholder_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_04"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Estimation_(project_management)"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_EasyAid"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_EasyAid"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Estimation_(project_management)"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_EasyAid"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_EasyAid"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <rdfs:label>Giusy_Annunziata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Leonardo_Monaco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Leonardo_Monaco">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_02"/>
+        <rdfs:label>Leonardo_Monaco</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Mariagiovanna_Bianco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Mariagiovanna_Bianco">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_04"/>
+        <rdfs:label>Mariagiovanna_Bianco</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Martina_Giugliano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Martina_Giugliano">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_04"/>
+        <rdfs:label>Martina_Giugliano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <dc:description>- Motivate the team, especially remembering the importance of the experience they are experiencing and how soft skills such as communication and team working will be indispensable in the work
+- Explain how to best use the communication tools
+- Minimize communications between people in conflict, if this cause cannot be resolved in any other way (e.g. personal reasons)</dc:description>
+        <dc:title>Piano di Prevenzione per il rischio relativo alla Comunicazione</dc:title>
+        <rdfs:label>PP_Comuniazione</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <dc:description>- Track delivery times
+- Ask for feedback from TMs, for example on their assigned workload
+- Estimate the FP necessary for the implementation of each RF, in such a way as to have a solid basis from which to start in estimating the effort and assigning the work
+- Identify yourself with the TMs who have to perform the assigned work</dc:description>
+        <dc:title>Piano di Prevenzione per il rischio relativo agli errori di Sitima del progetto</dc:title>
+        <rdfs:label>PP_Estimation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <dc:description>- Carry out training on the tasks to be carried out
+- Provide guidelines, templates, checklists and references to follow
+- Motivate the team in carrying out the project successfully
+- Provide precise and explanatory feedback and corrections of errors made
+- Show how corrections will be made and according to what criteria</dc:description>
+        <dc:title>Piano di Prevenzione per il rischio relativo alla qualità degli artefatti</dc:title>
+        <rdfs:label>PP_Quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <dc:description>- Organize a special meeting to deal only with the scope and make it clear to everyone
+- Focus on the description of the current system and the proposed system
+- Verify the knowledge of the scope by each TM
+- Collect information about the scope from interested stakeholders, for example through interviews
+- Consult the material already made available</dc:description>
+        <dc:title>Piano di Prevenzione per il rischio relativo ai Requisiti del Software</dc:title>
+        <rdfs:label>PP_Requisiti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Retardation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Retardation">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <dc:description>- Constant monitoring and control of activities
+- In-depth study of the theory
+- Careful design of the WBS and scheduling</dc:description>
+        <dc:title>Piano di Prevenzione per il rischio relativo ai Ritardi di consegna degli Artefatti</dc:title>
+        <rdfs:label>PP_Retardation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Prevention_Plan"/>
+        <dc:description>- Involve everyone in the project activities
+- Create a friendly, pleasant work environment.
+- Emphasize the benefits of coordinated teamwork
+- Continuously stimulate and motivate TMs
+- Valuing everyone&apos;s knowledge, skills, ideas and points of view</dc:description>
+        <dc:title>Piano di Prevenzione per il rischio relativo alla scarsa partecipazione di uno Stakeholder</dc:title>
+        <rdfs:label>PP_Scarsa_Partecipazione</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Mitigazione rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione"/>
+        <property:cause rdf:resource="https://dbpedia.org/ontology/interest"/>
+        <property:discovered rdf:resource="https://dbpedia.org/ontology/interest"/>
+        <property:prevention rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione"/>
+        <rdfs:comment>Lack of presence or intervention in a matter of order or collective interest. One of the respective Stakeholders may not actively participate in the development of the project</rdfs:comment>
+        <rdfs:label>Participation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_EasyAid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_EasyAid">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk_management_plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Estimation"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Estimation"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <dc:title>Risk Management Plan EasyAid</dc:title>
+        <rdfs:label>RP_EasyAid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_FitDiary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_FitDiary">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk_management_plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione"/>
+        <dc:title>Risk Management Plan FitDiary</dc:title>
+        <rdfs:label>RP_FitDiary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_UniFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_UniFit">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk_management_plan"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <untitled-ontology-17:Plan_Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Quality"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Retardation"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Quality"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <dc:title>Risk Management Plan UniFit</dc:title>
+        <rdfs:label>RP_UniFit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_EasyAid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_EasyAid">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk_register"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Estimation_(project_management)"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Estimation_(project_management)"/>
+        <dc:title>Risk Register EasyAid</dc:title>
+        <rdfs:label>RR_EasyAid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_FitDiary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_FitDiary">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk_register"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <Category:Containers rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation"/>
+        <dc:title>Risk Register FitDiary</dc:title>
+        <rdfs:label>RR_FitDiary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_UniFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_UniFit">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/Document"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Risk_register"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software_documentation"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <untitled-ontology-17:Risk_Container rdf:resource="http://dbpedia.org/resource/Retardation"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Quality_management"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <Category:Containers rdf:resource="http://dbpedia.org/resource/Retardation"/>
+        <dc:title>Risk Register UniFit</dc:title>
+        <rdfs:label>RR_UniFit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Rebecca_Giugliano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Rebecca_Giugliano">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_02"/>
+        <rdfs:label>Rebecca_Giugliano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Riccardo_Polidoro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Riccardo_Polidoro">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_03"/>
+        <rdfs:label>Riccardo_Polidoro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Roberto_Tartaglia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Roberto_Tartaglia">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_03"/>
+        <rdfs:label>Roberto_Tartaglia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Salvatore_Fasano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Salvatore_Fasano">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project_manager"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <resource:Risk_management rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <resource:Risk_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation"/>
+        <resource:Software_project_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C02-FitDiary"/>
+        <resource:Stakeholder_management rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_02"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <untitled-ontology-17:Realize rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_FitDiary"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_FitDiary"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Communication"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://dbpedia.org/resource/Requirement"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Partecipation"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RP_FitDiary"/>
+        <untitled-ontology-17:realize_documentation rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#RR_FitDiary"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Comunicazione"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Requisiti"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#CP_Scarsa_Comunicazione"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Comuniazione"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Requisiti"/>
+        <untitled-ontology-17:realize_plan rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#PP_Scarsa_Partecipazione"/>
+        <rdfs:label>Salvatore_Fasano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Serena_Liguori -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Serena_Liguori">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_04"/>
+        <rdfs:label>Serena_Liguori</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Stefano_Marciano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Stefano_Marciano">
+        <rdf:type rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ontology1:playerInTeam rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_02"/>
+        <rdfs:label>Stefano_Marciano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_02">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <resource:Software_development rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#FitDiary"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_FitDiary"/>
+        <untitled-ontology-17:realize_Artifact rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_FitDiary"/>
+        <ontology:Work rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C02-FitDiary"/>
+        <rdfs:label>Team_02</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_03">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <resource:Software_development rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#UniFit"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_UniFit"/>
+        <untitled-ontology-17:realize_Artifact rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_UniFit"/>
+        <ontology:Work rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C03-UniFit"/>
+        <rdfs:label>Team_03</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Team_04">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Project_team"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Stakeholder"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <resource:Software_development rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#EasyAid"/>
+        <untitled-ontology-17:Realize rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_EasyAid"/>
+        <untitled-ontology-17:realize_Artifact rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#Doc_EasyAid"/>
+        <ontology:Work rdf:resource="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#C04-EasyAid"/>
+        <rdfs:label>Team_04</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#UniFit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giusya/ontologies/2022/4/untitled-ontology-17#UniFit">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Software"/>
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Artifact_(software_development)"/>
+        <rdfs:comment>UniFit was created with the aim of facilitating the use of services relating to the gymnasium of the university center of the University of Salerno.</rdfs:comment>
+        <rdfs:label>UniFit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/ontology/interest -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/ontology/interest">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:comment>Interest and initiative for participation in the project.</rdfs:comment>
+        <rdfs:label>interest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dbpedia.org/page/Experience -->
+
+    <owl:NamedIndividual rdf:about="https://dbpedia.org/page/Experience">
+        <rdf:type rdf:resource="http://dbpedia.org/resource/Root_cause"/>
+        <rdfs:label>Experience</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
